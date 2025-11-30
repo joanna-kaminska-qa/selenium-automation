@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.selenium.search.homework.KodillaStorePomTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-11-28T19:00:49.615Z" hostname="DESKTOP-CMK6P3P" time="92.088">
+  <properties/>
+  <testcase name="shouldShowNumberOfGamingProductsFound()" classname="com.kodilla.selenium.search.homework.KodillaStorePomTest" time="10.948"/>
+  <testcase name="shouldShowNumberOfBrandProductsFound()" classname="com.kodilla.selenium.search.homework.KodillaStorePomTest" time="12.334"/>
+  <testcase name="shouldShowNumberOfNotebooksFound()" classname="com.kodilla.selenium.search.homework.KodillaStorePomTest" time="8.89"/>
+  <testcase name="shouldShowNumberOfBusinessProductsFound()" classname="com.kodilla.selenium.search.homework.KodillaStorePomTest" time="20.863"/>
+  <testcase name="shouldShowNumberOfPowerfulProductsFound()" classname="com.kodilla.selenium.search.homework.KodillaStorePomTest" time="16.965"/>
+  <testcase name="shouldShowNumberOfSchoolProductsFound()" classname="com.kodilla.selenium.search.homework.KodillaStorePomTest" time="9.729"/>
+  <testcase name="shouldIgnoreCaseWhenSearching()" classname="com.kodilla.selenium.search.homework.KodillaStorePomTest" time="12.347"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+1764356450779	geckodriver	INFO	Listening on 127.0.0.1:45233
+1764356451305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "40945" "--remote ... ocalhost:40945/,http://[::1]:40945/" "-no-remote" "-profile" "C:\\Users\\Joanna\\AppData\\Local\\Temp\\rust_mozprofile3FyJmL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1764356451853	Marionette	INFO	Marionette enabled
+1764356451947	Marionette	INFO	Listening on port 62402
+WebDriver BiDi listening on ws://127.0.0.1:40945
+Read port: 62402
+1764356452125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1764356461373	geckodriver	INFO	Listening on 127.0.0.1:31736
+1764356461435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14397" "--remote ... ocalhost:14397/,http://[::1]:14397/" "-no-remote" "-profile" "C:\\Users\\Joanna\\AppData\\Local\\Temp\\rust_mozprofiler0tNiZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1764356464595	Marionette	INFO	Marionette enabled
+1764356464886	Marionette	INFO	Listening on port 62699
+WebDriver BiDi listening on ws://127.0.0.1:14397
+Read port: 62699
+1764356465181	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1764356473013	geckodriver	INFO	Listening on 127.0.0.1:23579
+1764356473054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23542" "--remote ... ocalhost:23542/,http://[::1]:23542/" "-no-remote" "-profile" "C:\\Users\\Joanna\\AppData\\Local\\Temp\\rust_mozprofiled4N7C4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1764356473716	Marionette	INFO	Marionette enabled
+1764356473794	Marionette	INFO	Listening on port 62835
+WebDriver BiDi listening on ws://127.0.0.1:23542
+Read port: 62835
+1764356473990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1764356482002	geckodriver	INFO	Listening on 127.0.0.1:27974
+1764356482048	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6966" "--remote- ... /localhost:6966/,http://[::1]:6966/" "-no-remote" "-profile" "C:\\Users\\Joanna\\AppData\\Local\\Temp\\rust_mozprofilepjNX4O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1764356483223	Marionette	INFO	Marionette enabled
+1764356483377	Marionette	INFO	Listening on port 62950
+WebDriver BiDi listening on ws://127.0.0.1:6966
+Read port: 62950
+1764356483669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1764356502704	geckodriver	INFO	Listening on 127.0.0.1:39756
+1764356502754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "19977" "--remote ... ocalhost:19977/,http://[::1]:19977/" "-no-remote" "-profile" "C:\\Users\\Joanna\\AppData\\Local\\Temp\\rust_mozprofileQCSWYB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1764356503205	Marionette	INFO	Marionette enabled
+1764356503303	Marionette	INFO	Listening on port 63019
+WebDriver BiDi listening on ws://127.0.0.1:19977
+Read port: 63019
+1764356503472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1764356519671	geckodriver	INFO	Listening on 127.0.0.1:4727
+1764356519727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "30009" "--remote ... ocalhost:30009/,http://[::1]:30009/" "-no-remote" "-profile" "C:\\Users\\Joanna\\AppData\\Local\\Temp\\rust_mozprofilepLsCTi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1764356520156	Marionette	INFO	Marionette enabled
+1764356520237	Marionette	INFO	Listening on port 63095
+WebDriver BiDi listening on ws://127.0.0.1:30009
+Read port: 63095
+1764356520436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1764356529714	geckodriver	INFO	Listening on 127.0.0.1:11697
+1764356529832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "34464" "--remote ... ocalhost:34464/,http://[::1]:34464/" "-no-remote" "-profile" "C:\\Users\\Joanna\\AppData\\Local\\Temp\\rust_mozprofileZLgfN6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1764356530507	Marionette	INFO	Marionette enabled
+1764356530651	Marionette	INFO	Listening on port 63221
+WebDriver BiDi listening on ws://127.0.0.1:34464
+Read port: 63221
+1764356530855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+]]></system-err>
+</testsuite>
